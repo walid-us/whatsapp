@@ -1,0 +1,326 @@
+nav.navbar,
+.earth,
+.about-chat > .container > .row,
+.whatsapp-abi .use .cases,
+.pricing table{
+  direction: rtl;
+}
+.whats-app .screen,
+.system-card{
+  direction: ltr;
+}
+#toggleIcon{
+  left: 20px;
+  right: auto
+}
+.cd-words-wrapper,
+td,th,
+.whats-app .Build .automate,
+.whats-app .Build .learn,
+.about-chat > .container > .row,
+.whatsapp-abi .use .cases,
+.footer-whats ul li ,.pricing .sep{
+}
+.cd-headline.clip span,
+.whats-app .Build h2,
+.whats-app .Build h1,
+.about-chat .about-text h1,
+.about-chat .about-text h2
+{
+  letter-spacing: -2!important;
+}
+@media (min-width: 1400px){
+  .cd-headline.clip span,
+  .whats-app .Build h2,
+  .whats-app .Build h1{
+    letter-spacing: normal;
+  }
+}
+
+.bg-light img {
+  margin-right: 5%;
+}
+
+.whatsapp-abi .use .cases {
+  text-align: center;
+}
+
+#toggleIcon {
+  left: 80px;
+}
+
+
+
+.whats-app .animation {
+	width: 0
+}
+.whats-app .animation {
+  animation-duration: 5s;
+  animation-iteration-count: infinite ;
+  animation-timing-function: steps(40);
+  white-space: nowrap;
+  overflow: hidden;
+  animation-delay: .5s;
+  animation-name: animai;
+
+}
+
+@keyframes animai {
+
+  0%{
+    width: 0;
+  }
+  25%{
+    width: 14ch;
+  }
+
+  50%{
+    width: fit-content;
+  }
+  85%{
+    width: fit-content;
+  }
+
+  100%{
+    width: 0;
+  }
+
+}
+
+
+.whats-app .animation-2 {
+	width: 0
+}
+.whats-app .animation-2 {
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(90);
+  white-space: nowrap;
+  overflow: hidden;
+  animation-delay: 1.3s;
+  animation-name: anima;
+
+}
+
+@keyframes anima {
+
+  0%{
+    width: 0;
+  }
+  25%{
+    width: 17.5ch;
+  }
+
+  50%{
+    width: fit-content;
+  }
+  60%{
+    width: fit-content;
+  }
+
+  100%{
+    width: 0;
+  }
+
+}
+
+
+.cd-headline.clip .cd-words-wrapper::after{
+  right: auto;
+  left: 0
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+}
+
+.arrow-next {
+  right: 0;
+  left: auto;
+}
+
+.arrow-prev {
+  right: 85px;
+}
+
+.slide-img::after {
+ left: 2px;
+ right: auto;
+}
+
+
+
+.whatsapp-abi .use-images{
+  left: 5%;
+}
+.whats-app .button .btn-1,
+.whats-app .button .btn-2{
+  float: right;
+}
+.whatsapp-abi .use{
+  float: right;
+}
+
+
+
+.whatsapp-abi .whatsapp-text h1 {
+  font-size: 35px;
+}
+
+.whatsapp-abi .use-right , .whatsapp-abi .use-left{
+  bottom: -12px;
+}
+
+
+.whats-app .button .btn-2{
+  margin-left: 0;
+  margin-right: 20px
+}
+.about-chat .chat-img img{
+      transform: scaleX(-1);
+
+}
+.support .card .card-text p{
+  font-size: 14px
+}
+.whatsapp-abi .cases p{
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.about-chat .build-text ,.customer-text {
+  text-align: right;
+}
+
+.footer-whats .footer-mujib {
+  text-align: right;
+}
+
+#WAButton{
+  right: auto !important;
+  left: 20px !important
+}
+
+
+.pricing .load ,.pricing .Broadcast ,.pricing .ai,
+.pricing .load-2, .pricing .Broadcast-2 ,.pricing .ai-2,
+.pricing .load-3 ,.pricing .Broadcast-3 ,.pricing .ai-3,
+.pricing .load-4 ,.pricing .Broadcast-4 ,.pricing .ai-4 {
+  left: 57px;
+}
+
+.pricing td, th {
+  padding-right: 35px;
+}
+
+
+.pricing .sep {
+  padding-right: 20px;
+}
+
+.tick {
+  margin-right: 15px;
+
+}
+
+
+
+/**/
+@media (max-width: 768px){
+.whatsapp-abi .use{
+      max-inline-size: 100%;
+  }
+
+  .pricing button {
+    font-size: 11px;
+  }
+
+  .pricing .nav-table {
+    display: none;
+  }
+
+  .whatsapp-abi .use-images {
+    left: 50%;
+  }
+  .mobile-carousel{
+    direction: rtl;
+  }
+
+  .whats-app .Build {
+    align-items: center;
+  }
+
+  .whats-app .Build .automate, .whats-app .Build .learn {
+    text-align: center;
+  }
+
+  .whats-app .Build .button {
+    margin: 0 auto;
+    display: contents;
+  }
+
+  .whatsapp-abi .whatsapp-text h1 {
+    font-size: 5vw;
+}
+
+.whats-app .button .btn-1, .whats-app .button .btn-2 {
+  font-size: 13px;
+}
+
+.whats-app .button .btn-2 {
+  padding: 6px 85px;
+}
+
+}
+
+
+@media (max-width: 992px){
+  .whatsapp-abi .use-images img {
+      margin-left: 0;
+      top: 188px;
+  }
+  .whatsapp-abi .use-images img {
+    margin-left: 0 !important;
+  }
+   #toggleIcon{
+  left: 20px;
+}
+
+.pricing .bg-blue {
+  font-size: 17px;
+}
+
+
+}
+
+@media only screen and (max-width: 480px){
+.business .left , .business .right  {
+    top: -62px;
+}
+.whatsapp-abi .use-right, .whatsapp-abi .use-left {
+  bottom: -20px;
+}
+
+.pricing .pricing-text .pricing-right {
+  right: -10px;
+
+}
+
+
+
+}
+
+@media (min-width: 1400px){
+.business .card {
+    min-height: 320px;
+}
+}
+
+@media (min-width: 480px){
+  .support-img {
+    margin-top: 15px;
+  
+  }
+  }
+
